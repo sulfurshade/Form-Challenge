@@ -1,0 +1,80 @@
+body {
+	background-color: #6495ED;
+}
+
+.logo {
+	/*The text said to make the logo a height of 75,
+	the picture example showed to make the logo a
+	height of 35. I went with 35 and made the logo
+	plus margin equal 75*/
+	height: 35px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: block;
+}
+
+.whitebox {
+	/*width plus padding equals 400*/
+	width: 320px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+input[placeholder] {
+	color: black;
+}
+
+input {
+	width: 286px;
+	height: 21px;
+	padding: 15px;
+	border: 2px lightgray solid;
+	font-size: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.button {
+	padding: 15px;
+	width: 320px;
+	height: 55px;
+	border: 2px solid lightgray;
+	/*margin-top: 15px;*/
+	margin-bottom: 10px;
+	background-color: #4CAF50;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	color: white;
+	font-size: 20px;
+}
+
+.button:hover {
+	background-color: darkgreen;
+}
+
+fieldset {
+	padding-left: 0;
+	border: none;
+}
+
+h1 {
+	text-align: center;
+	font-weight: normal;
+}
+
+label {
+	font-weight: bold;
+}
+
+.fPw {
+	color: lightgray;
+	padding: 100px;
+}
