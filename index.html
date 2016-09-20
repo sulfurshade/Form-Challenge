@@ -7,18 +7,18 @@
 </head>
 <body>
 	<img src="images/logo.png" class="logo" />
-	<form class="signup-form" name="signupForm" action="/signup/" method="post" id="form1">
+	<form class="signup-form" action="/signup" method="post">
 		<container class="whitebox">
 			<h1>Sign up</h1>
 			<fieldset name="login-info">
-				<label for="email" required>Email</label>
-				<input type="email" placeholder="foo@bar.com" name="email" id="email" required />
+				<label for="useremail" required>Email</label>
+				<input type="email" placeholder="foo@bar.com" name="useremail" id="useremail" required />
 
-				<label for="password" required>Password</label>
-				<input type="password" name="password" id="password" placeholder="1234passw0rd" required />
+				<label for="userpassword" required>Password</label>
+				<input type="password" name="userpassword" id="userpassword" placeholder="1234passw0rd" required />
 			</fieldset>
 			<section>
-				<button type="submit" form="form1" value="Submit" class="button">Sign up</button>
+				<button type="submit" class="buttons">Sign up</button>
 				<a href="/forgot-password/new" class="fPw">Forgot password?</a>
 			</section>
 		</container>
